@@ -8,13 +8,21 @@
     </head>
 
     <body>
+        <header>
+            <h2>AutumnSide</h2>
+            <nav style = "transform: translateY(-12px); display: flex; flex-direction: row; justify-content: space-evenly;">
+                <a href="#about-me">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
         <!--TITLE-->
-        <section class="card-title">
+        <section class="card-title" id="autumnside">
             <h1>AutumnSide</h1>
             <p>A personal website about me.</p>
         </section>
         <!--ABOUT ME-->
-        <details open class="card-body">
+        <details open class="card-body" id="about-me">
             <summary style = "display: flex; justify-content: space-between; cursor:pointer">
                 <h2>About Me</h2>
             </summary>
@@ -27,17 +35,17 @@
             </div>
         </details>
         <!--PROJECTS-->
-        <details open class="card-body">
+        <details open class="card-body" id="projects">
             <summary style = "display: flex; justify-content: space-between; cursor:pointer">
                 <h2>Projects</h2>
             </summary>
             <div class="card-containers">
                 <div class="card-image">
                     <image src="rabbitOS.png" style="border-radius:8px"></image>
-                    <a style = "color: rgb(163, 206, 255)" href="https://kaskadiia.github.io/rabbit-OS/">
+                    <a href="https://kaskadiia.github.io/rabbit-OS/">
                         <h3>rabbitOS</h3>
                     </a>
-                    <a style = "color: rgb(163, 206, 255)" href="https://github.com/kaskadiia/rabbit-OS">
+                    <a href="https://github.com/kaskadiia/rabbit-OS">
                         Repo
                     </a>
                     <p>A Rabbit and Steel themed WebOS.</p>
@@ -48,13 +56,13 @@
             </div>
         </details>
         <!--CONTACT-->
-        <details open class="card-body">
+        <details open class="card-body" id="contact">
             <summary style = "display: flex; justify-content: space-between; cursor:pointer">
                 <h2>Contact</h2>
             </summary>
             <div class="card-text">
-                <p>GitHub: <a style = "color: rgb(163, 206, 255)" href="https://github.com/kaskadiia">https://github.com/kaskadiia</a></p>
-                <p>Email: <a style = "color: rgb(163, 206, 255)" href="mailto:kas.kadiia@gmail.com">kas.kadiia@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/kaskadiia">https://github.com/kaskadiia</a></p>
+                <p>Email: <a shref="mailto:kas.kadiia@gmail.com">kas.kadiia@gmail.com</a></p>
             </div>
         </details>
     </body>
