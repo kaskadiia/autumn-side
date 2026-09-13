@@ -10,10 +10,37 @@
     <body>
         <section class="card-title">
             <h1>AutumnSide</h1>
-            <p">A personal website about me.</p>
+            <p>A personal website about me.</p>
         </section>
-        <section class="card-body">
-            <h2>filler</h2>
-        </section>
+        <details open class="card-body">
+            <summary style = "display: flex; justify-content: space-between; cursor:pointer">
+                <h2>About Me</h2>
+            </summary>
+            <div class="card-text">
+                <p>Hi, I'm kaskadia. I go by this username or shortened to Kadia in online spaces. I go by any pronouns.</p>
+                <p>I am a high school student in the United States. Since my elementary years, game development was one of my interests, starting in ROBLOX before moving to learn Godot quite recently. I am also taking an interest to web development.</p>
+                <p>I am also interested in music production, having self taught myself music theory and made music for said games or just as standalone music for fun.</p>
+                <p>This site is thematically autumn because autumn is the best season, and I will die on this hill.</p>
+                <p>These sections can be collapsed by just clicking on the heading.</p>
+            </div>
+        </details>
+        <details open class="card-body">
+            <summary style = "display: flex; justify-content: space-between; cursor:pointer">
+                <h2>Projects</h2>
+            </summary>
+            <div class="card-containers">
+                <div class="card-image">
+                    <image src="rabbitOS.png" style="border-radius:8px"></image>
+                    <a style = "color: rgb(163, 206, 255)" href="https://kaskadiia.github.io/rabbit-OS/">
+                        <h3>rabbitOS</h3>
+                    </a>
+                    <p>A Rabbit and Steel themed WebOS.</p>
+                </div>
+                <div class="card-image">
+                    <p>Well, I'm sure this will be filled out further :p</p>
+                </div>
+            </div>
+        </details>
     </body>
 </html>
+<script src="script.js"></script>

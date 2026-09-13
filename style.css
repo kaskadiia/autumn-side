@@ -1,6 +1,8 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(66, 46, 38) rgb(122, 75, 55);
 }
 
 body {
@@ -9,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +30,7 @@ body {
     max-height: 128px;
     margin-top: 16px;
     background-color: rgba(190, 0, 48, 0.15);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -41,12 +44,60 @@ body {
 .card-body {
     width: 75%;
     min-width: 250px;
-    height: auto;    margin-top: 16px;
+    height: auto;
+    margin-top: 16px;
     background-color: rgba(190, 0, 48, 0.15);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(121, 48, 66, 0.85);
+    border-width: 1px;
+}
+
+.card-text {
+    width: auto;
+    height: auto;
+    margin-top: 16px;
+    background-color: rgba(0, 16, 104, 0.15);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(121, 48, 66, 0.85);
+    border-width: 1px;
+}
+
+.card-containers {
+    width: auto;
+    height: auto;
+    margin-top: 16px;
+    background-color: rgba(0, 16, 104, 0.15);
     text-align: left;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(121, 48, 66, 0.85);
+    border-width: 1px;
+}
+
+.card-image {
+    width: calc(50% - 64px);
+    min-width: 128px;
+    max-width: 256px;
+    height: auto;
+    background-color: rgba(0, 16, 104, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     padding: 16px;
     border-radius: 8px;
     border-style: solid;
