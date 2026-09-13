@@ -1,0 +1,55 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(185, 102, 6);
+    background-image: url(forest-in-autumn-gustave-courbet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+    line-height: 1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-title {
+    width: 50%;
+    max-width: 500px;
+    min-width: 250px;
+    height: 50%;
+    max-height: 128px;
+    margin-top: 16px;
+    background-color: rgba(190, 0, 48, 0.15);
+    backdrop-filter: blur(2px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(121, 48, 66, 0.85);
+    border-width: 1px;
+}
+
+.card-body {
+    width: 75%;
+    min-width: 250px;
+    height: auto;    margin-top: 16px;
+    background-color: rgba(190, 0, 48, 0.15);
+    backdrop-filter: blur(2px);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgba(121, 48, 66, 0.85);
+    border-width: 1px;
+}
